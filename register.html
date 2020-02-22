@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Crear cuenta</title>
+
+  <!-- Custom fonts for this template-->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+
+  <!-- Custom styles for this template-->
+  <link href="css/sb-admin.css" rel="stylesheet">
+
+</head>
+
+<body class="bg-dark" style="background-color:">
+
+  <div class="container">
+    <div class="card card-register mx-auto mt-5">
+      <div class="card-header text-center shadow" style="background-color:white"><img src="img/logo-header.png" class="img-fluid" alt="">Registrate como docente</div>
+      <div class="card-body">
+        <form method="post" action="functions/funciones.php">
+          <div class="form-group">
+            <div class="form-row">
+              <div class="col-md-3">
+                <div class="form-label-group">
+                  <input type="text" id="CDT" class="form-control" name="cdt" placeholder="CLAVE CT." required="required" autofocus="autofocus">
+                  <label for="CDT">CLAVE CT.</label>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="form-label-group">
+                  <input type="text" id="lastName" class="form-control" name="rfc" placeholder="RFC" required="required">
+                  <label for="lastName">RFC</label>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="form-label-group">
+                  <input type="text" id="lastName" class="form-control" name="cur" placeholder="CURP" required="required">
+                  <label for="lastName">CURP</label>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="form-label-group">
+                  <input type="text" id="lastName" class="form-control" name="cla" placeholder="CLAVE P" required="required">
+                  <label for="lastName">CLAVE P</label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="form-row">
+              <div class="col-md-6">
+                <div class="form-label-group">
+                  <input type="text" id="firstName" class="form-control" name="nom" placeholder="NOMBRES" required="required" autofocus="autofocus">
+                  <label for="firstName">NOMBRES</label>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-label-group">
+                  <input type="text" id="lastName" class="form-control" name="ape" placeholder="APELLIDOS" required="required">
+                  <label for="lastName">APELLIDOS</label>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="form-label-group">
+              <input type="email" id="inputEmail" class="form-control" name="cor" placeholder="CORREO ELECTRONICO" required="required">
+              <label for="inputEmail">CORREO ELECTRONICO</label>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="form-row">
+              <div class="col-md-6">
+                <div class="form-label-group">
+                  <input type="password" id="inputPassword" class="form-control"  name="pas"placeholder="Password" required="required">
+                  <label for="inputPassword">CONTRASEÑA</label>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-label-group">
+                  <input type="password" id="confirmPassword" class="form-control" name="pa1" placeholder="CONFIRMAR CONTRASEÑA" required="required">
+                  <label for="confirmPassword">CONFIRMAR CONTRASEÑA</label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <input type="submit" class="btn btn-primary btn-block" name="maestros" value="Crear cuenta">
+
+        </form>
+        <div class="text-center">
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap core JavaScript-->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Core plugin JavaScript-->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+</body>
+
+</html>
